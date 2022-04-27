@@ -1,0 +1,31 @@
+.primary__btn{
+   padding: 9px 33px 11px 32px;
+   text-decoration: none;
+   font-weight: 600;
+   color: $color-white;
+   border: 2px solid $color-white;
+   border-radius: 24px;
+   &:hover{
+      color: $color-dark-green;
+      background-color: $color-white;
+   }
+}
+
+.primary__btn--black{
+   padding: 9px 33px 11px 32px;
+   text-decoration: none;
+   font-weight: 600;
+   color: $color-state-green;
+   border: 2px solid $color-state-green;
+   border-radius: 24px;
+   &:hover{
+      color: $color-white;
+      background-color: $color-state-green;
+   }
+}
+
+@include breakpoint-down(511px){
+   .primary__btn{
+      display: none;
+   }
+}

@@ -89,7 +89,7 @@
    border-radius: 50%;
 }
 
-@include breakpoint-down(1495px){
+@include breakpoint-down(1497px){
    .directors__container{
       &::after{
          display: none;

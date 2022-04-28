@@ -41,7 +41,7 @@
 .clients__item-img {
 }
 
-@include breakpoint-down(1495px){
+@include breakpoint-down(1497px){
    .clients__container{
       &::before{
          display: none;

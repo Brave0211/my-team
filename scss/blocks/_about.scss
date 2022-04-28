@@ -47,7 +47,7 @@
    }
 }
 
-@include breakpoint-down(1492px){
+@include breakpoint-down(1498px){
    .about__container{
       &::after{
          display: none;

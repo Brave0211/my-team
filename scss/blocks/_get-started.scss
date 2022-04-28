@@ -29,7 +29,7 @@
    color: $color-state-green;
 }
 
-@include breakpoint-down(1496px){
+@include breakpoint-down(1497px){
    .get-started__container{
       &::before{
          display: none;
